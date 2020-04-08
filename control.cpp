@@ -1,13 +1,13 @@
 #include <string>
 #include <array>
 #include <iostream>
-#include "leetcode_7.cpp"
+#include "leetcode_9.cpp"
 
 int main(){
-    Solution7 s;
+    Solution9 s;
     std::string input_str = "PAYPALISHIRING";
-    int input_int = -2147483648;
-    s.reverse(input_int);
+    int input_int = -121;
+    s.isPalindrome(input_int);
     
     return 0;
 }
