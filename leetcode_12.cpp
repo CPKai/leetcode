@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class Solution {
+class Solution12 {
 public:
     string intToRoman(int num) {
 

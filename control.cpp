@@ -2,14 +2,24 @@
 #include <array>
 #include <iostream>
 #include <vector>
-#include "leetcode_11.cpp"
+#include "leetcode_15.cpp"
 
 int main(){
-    Solution11 s;
-    std::string input_str = "PAYPALISHIRING";
+    Solution15 s;
+    
+    std::string input_str = "IV";
+    std::string input_str2 = "*";
     int input_int = -121;
-    vector<int> input_vector{1,8,6,2,5,4,8,3,7};
-    s.maxArea(input_vector);
+    vector<int> input_vector{0,0,0};
+    vector<string> inputS_vector{"flower","flow","flight"};
+
+
+    s.threeSum(input_vector);
     
     return 0;
+
+
+
 }
+
+
