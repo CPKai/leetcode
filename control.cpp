@@ -2,7 +2,7 @@
 #include <array>
 #include <iostream>
 #include <vector>
-#include "leetcode_37.cpp"
+#include "leetcode_45.cpp"
 using namespace std;
 
 // struct ListNode {
@@ -13,12 +13,12 @@ using namespace std;
 
 
 int main(){
-    Solution37 s;
+    Solution45 s;
     
-    // std::string input_str = "barfoothefoobarman";
-    // std::string input_str2 = "*";
+    std::string input_str = "adceb";
+    std::string input_str2 = "*a*b";
     int input_int = 0;
-    vector<int> input_vector{4,5,6,7,0,1,2};
+    vector<int> input_vector{1,2,1,1,1};
     // vector<string> inputS_vector{"foo","bar"};
     // ListNode* head;
     // ListNode* tempNode = new ListNode(0);
@@ -47,8 +47,8 @@ int main(){
 
     // vector<ListNode*> inputVecLN {LN1,LN2};
 
-    vector<vector<char>> inputVecChar{{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
-    s.solveSudoku(inputVecChar);
+    // vector<vector<char>> inputVecChar{{'5','3','.','.','7','.','.','.','.'},{'6','.','.','1','9','5','.','.','.'},{'.','9','8','.','.','.','.','6','.'},{'8','.','.','.','6','.','.','.','3'},{'4','.','.','8','.','3','.','.','1'},{'7','.','.','.','2','.','.','.','6'},{'.','6','.','.','.','.','2','8','.'},{'.','.','.','4','1','9','.','.','5'},{'.','.','.','.','8','.','.','7','9'}};
+    s.jump(input_vector);
     
     return 0;
 
